@@ -1,0 +1,74 @@
+#promo {
+  text-align: center;
+  padding: 40px;
+  background: url(../../assets/img/background.jpg) no-repeat;
+  background-size: cover;
+}
+
+#logo {
+  max-height: 42px;
+  margin-right: 18px;
+  margin-top: -3px;
+  display: inline-block;
+}
+
+.navbar {
+  background-color: white;
+}
+
+#promo .jumbotron {
+  border-radius: 30px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.75);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  #promo {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  #promo .jumbotron {
+    padding: 20px;
+  }
+}
+
+body {
+  font-family: -apple-system,BlinkMacSystemFont,Raleway,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+#wellcome p {
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.site-section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.site-section h3 {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+#why .item i {
+  font-size: 42px;
+  color: rgb(230,127,181);
+}
+
+#why .item h2 {
+  font-weight: normal;
+  margin-top: 13px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.dark-section {
+  background-color: #f2fcfc;
+}
+
